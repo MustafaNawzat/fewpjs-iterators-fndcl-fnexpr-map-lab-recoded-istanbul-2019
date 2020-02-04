@@ -25,6 +25,7 @@ const titleCased = () => {
     //for each word, make the first letter capital
 
     //join it back togeteher into a string
+    return newWords.join(" ");
   });
 }    
     //return new array
