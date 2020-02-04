@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  const newArray = tutorials.map(function(element){
+  let newArray = tutorials.map(function(element){
     //split the current element of the array into words
     element = element.split(" ");
     //iterate through the new array of words
