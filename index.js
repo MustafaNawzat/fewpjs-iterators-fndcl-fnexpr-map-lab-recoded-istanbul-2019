@@ -16,9 +16,10 @@ const titleCased = () => {
     //split the current element of the array into words
     element = element.split(" ");
     //iterate through the new array of words
-    const newWords = element.forEach(function(word) {
+    const newWords;
+    element.forEach(function(word) {
       word = word[0].toUpperCase() + word.slice(1);
-      console.log(newWords);
+      newWords
     })
 //    console.log("New array: ", newArray);
     //for each word, make the first letter capital
