@@ -12,15 +12,17 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials.map(function(element){
+  const newArray = tutorials.map(function(element){
     //split the current element of the array into words
     element = element.split(" ");
     //iterate through the new array of words
     const newWords = element.forEach(function(word) {
       word = word[0].toUpperCase() + word.slice(1);
-      console.log(word);
+//      console.log(word);
     })
+    console.log(newArray);
     //for each word, make the first letter capital
+
     //join it back togeteher into a string
   });
 }    
