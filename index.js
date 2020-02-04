@@ -29,3 +29,4 @@ const titleCased = () => {
   });
 }    
     //return new array
+    return newArray;
