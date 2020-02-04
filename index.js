@@ -27,6 +27,7 @@ const titleCased = () => {
     //join it back togeteher into a string
     return newWords.join(" ");
   });
-}    
+    
     //return new array
     return newArray;
+}
