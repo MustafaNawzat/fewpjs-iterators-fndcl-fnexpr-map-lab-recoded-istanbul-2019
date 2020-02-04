@@ -19,7 +19,7 @@ const titleCased = () => {
     const newWords;
     element.forEach(function(word) {
       word = word[0].toUpperCase() + word.slice(1);
-      newWords
+      newWords.push(word);
     })
 //    console.log("New array: ", newArray);
     //for each word, make the first letter capital
